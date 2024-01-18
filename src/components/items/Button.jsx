@@ -5,14 +5,16 @@ const Button = forwardRef((props, ref) => {
 
     useImperativeHandle(ref, () => ({
         alterToggle() {
-            setToggle(!toggle);
+            handleToggle();
         }
     }));
+
+    const handleToggle = () => {
+        setToggle(!toggle);
+    }
     return (
         <div>
-            <button onClick={() => {
-                setToggle(!toggle);
-            }}
+            <button onClick={handleToggle}
             >
                 Button From Child
             </button>
