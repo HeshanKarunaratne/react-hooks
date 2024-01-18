@@ -1,4 +1,5 @@
 import UseEffect from "./components/hooks/UseEffect.tsx";
+import UseImperativeHandle from "./components/hooks/UseImperativeHandle.tsx";
 import UseLayerEffect from "./components/hooks/UseLayerEffect.tsx";
 import UseReducer from "./components/hooks/UseReducer.tsx";
 import UseRef from "./components/hooks/UseRef.tsx";
@@ -11,7 +12,8 @@ function App() {
       {/* <UseReducer /> */}
       {/* <UseEffect /> */}
       {/* <UseRef /> */}
-      <UseLayerEffect />
+      {/* <UseLayerEffect /> */}
+      <UseImperativeHandle />
     </div>
   );
 }
