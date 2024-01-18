@@ -1,3 +1,4 @@
+import UseCallback from "./components/hooks/UseCallback.tsx";
 import UseContext from "./components/hooks/UseContext.js";
 import UseEffect from "./components/hooks/UseEffect.tsx";
 import UseImperativeHandle from "./components/hooks/UseImperativeHandle.tsx";
@@ -17,7 +18,8 @@ function App() {
       {/* <UseLayerEffect /> */}
       {/* <UseImperativeHandle /> */}
       {/* <UseContext /> */}
-      <UseMemo />
+      {/* <UseMemo /> */}
+      <UseCallback />
     </div>
   );
 }
